@@ -1,0 +1,597 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+:root{
+--lightblue:#F5F6F7;
+}
+header{
+  width: 100%; 
+  background-color:lightblue ;
+}
+.header-up{
+    opacity: 0.5;
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.header-up .logo-group-head{
+    display: none;
+    justify-content: space-around;
+    width: 100%;
+}
+.header-up .email:hover , .header-up p:hover{
+color: red;
+}
+
+.header-up .number{
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+}
+.header-up .korz{
+    display: none;
+}
+
+
+
+/* header down */
+
+.header-down{
+    height: 130px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+.header-down-inside{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.header-down-inside .logo{
+    width: 225px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    margin-right: 10px;
+}
+.header-down-inside nav{
+    width: 700px;
+}
+.header-down-inside nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.header-down-inside nav ul li a:hover{
+    color: #FA3A30;
+}
+
+.header-down-inside nav ul li a{
+    color:#1C1A1A;
+
+}
+
+.header-down-inside .logo p{
+    font-size: 20px;
+    font-weight: 700;
+}
+.header-down-inside .logo span{
+    font-size: 12px;
+    opacity: 0.5;
+    font-weight: 400;
+}
+.search p{
+    display: none;
+}
+.tel{
+    display: none;
+}
+nav img{
+    display: none;
+}
+
+.header-down .logo-group{
+    display: none;
+    justify-content: space-between;
+    width: 300px;
+
+}
+
+/* first section */
+.first{
+    width: 100%;
+    height: 1000px;
+    background-image: url(./images/WhatsApp\ Image\ 2023-02-08\ at\ 03.50.13.jpeg);
+    background-repeat: no-repeat;
+  background-size: cover;
+}
+.first .first-container{
+    width: 100%;
+    height: 1000px;
+
+    margin:auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.first .first-container .left-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 800px;
+
+}
+
+.first-container .left-cont .text1{
+    font-size: 20px;
+    opacity: 0.7;
+    text-align: center;
+}
+
+.first-container .text2{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: -50px;
+}
+
+.first-container .text3{
+font-size: 100px;
+font-weight: 700;
+text-align: center;
+}
+
+.first-container .btn button{
+    width: 300px;
+    background-color: #CD2A22;
+    color: white;
+    border:none;
+    height: 80px;
+}
+
+.three-group{
+    height: 180px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.three-group .th-group-item{
+    width: 180px;
+    height: 150px;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+background: rgba(255, 255, 255, 0.49);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(1px);
+-webkit-backdrop-filter: blur(6.3px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+   
+}
+.three-group .th-group-item p{
+    text-align: center;
+    color: white;
+}
+.th-group-item img{
+    width: 50px;
+}
+
+.right-cont{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: space-between;
+    
+}
+
+.right-cont .right-item{
+    width:100px;
+    height: 100px;
+    border-radius: 90px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(126.68deg, rgba(71, 119, 227, 0) 8.95%, rgba(63, 111, 219, 0.7) 51.31%, rgba(67, 115, 223, 0) 87.94%), #1A4AA1;
+box-shadow: inset 0px 3.52558px 8.81395px rgba(255, 255, 255, 0.15);
+}
+.right-cont .right-item p{
+    text-align: center;
+}
+.buttonss{
+    display: flex;
+    justify-content:center;
+}
+
+.buttonss .right-btn button{
+    display: none;
+    width: 300px;
+    height: 80px;
+    background-color: #1A4AA1;
+    color: white;
+    border: 1px solid white;
+}
+.second {
+    width: 100%;
+}
+.second .second-container{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.second .second-gr{
+    display: none;
+}
+.second-container .sec-head{
+    text-align: center;
+    margin-top: 60px;
+}
+.sec-head{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sec-head p{
+    width: 700px;
+    margin-top: 10px;
+}
+.tanks{
+   width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.tank-item{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    align-items: center;
+}
+.tank-item .tank-img{
+    width: 100%;
+    height: 250px;
+    background-color: #F5F6F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tank-item p{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* three */
+.three{
+    width: 100%;
+    height: 500px;
+    background-image: url(./images/WhatsApp\ Image\ 2023-02-08\ at\ 12.12.32.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.three-container{
+    width: 100%;
+    height:100%;
+    max-width: 1200px;
+    margin: 100px auto;
+   
+    padding: 20px;
+}
+
+.three-container .three-text h2{
+    width:50%;
+    height: 100%;
+    margin-bottom: 20px;
+    text-align: start;
+    font-size: 50px;
+}
+.three-container .three-text p{
+    width: 40%;
+    height: 100px;
+}
+
+/* four */
+.four{
+    width: 100%;
+    height: 100%;
+}
+.four-container{
+    width: 100%;
+    height: 100%;
+    max-width: 1200px;
+    margin:  auto;
+    padding-bottom: 50px;
+    margin-top: 50px;
+   
+}
+.four-container ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.four-container h3{
+    height: 150px;
+   text-align: center;
+    font-size: 50px;
+    
+}
+
+.four-container ul li img{
+    width: 200px;
+    height: 90px;
+}
+
+.fifth{
+    background-color: black;
+    width: 100%;
+}
+.fifth-container{
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 90px;
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.fifth-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.fifth .fifth-text h3{
+font-size: 50px;
+text-align: center;
+height: 100%;
+}
+
+.fifth .fifth-text p{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.fifth .btn button{
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #1A4AA1;
+    background: linear-gradient(0deg, #1A4AA1, #1A4AA1),
+linear-gradient(103.63deg, #2452B8 1.59%, #2967E0 52.71%, #2452B8 96.91%),
+linear-gradient(270.59deg, rgba(255, 255, 255, 0) 0.72%, rgba(255, 255, 255, 0.4) 53.15%, rgba(255, 255, 255, 0) 95.54%);
+
+}
+
+/* sixth */
+
+.sixth{
+    width: 100%;
+    height: 100%;
+    background-image: url(./images/Mask\ group.png);
+    background-size: cover;
+}
+.sixth-container{
+    width: 100%;
+    max-width: 1200px;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.sixth-left{
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+   margin-top: 150px;
+   margin-bottom: 130px;
+    justify-content: end;
+}
+.sixth-left h3{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.sixth-left .last{
+    margin-top: 20px;
+    color: red;
+}
+
+.sixth-right{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+}
+.sixth-right p{
+    text-align: end;
+    width: 180px;
+    height: 100px;
+}
+.sixth-right .picture img{
+    width: 400px;
+    height: 300px;
+}
+
+/* news */
+.news{
+    width: 100%;
+}
+.news-container{
+width: 100%;
+max-width: 1200px;
+margin: auto;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+
+.news-item{
+    width: 350px;
+    height: 350px;
+    padding-top:50px;
+    margin-bottom: 40px;
+}
+
+.news-item .item-img{
+    position: relative;
+}
+.item-img img:nth-child(1){
+    width: 100%;
+}
+
+.news-item .absl{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.news-item .img-text{
+    padding-bottom: 40px;
+    padding-top: 20px;
+    
+}
+.img-text .text2{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.img-text span{
+    font-size:14px ;
+    opacity: 0.5;
+}
+.news .end-text{
+    width: 100%;
+    max-width: 100%;
+    margin: 100px auto;
+    text-align: center;
+    color: red;
+}
+
+/* last */
+.last{
+    width: 100%;
+}
+.last-container{
+    width: 100%;
+    margin: 60px auto;
+    max-width: 1200px;
+}
+
+.last-container .last-left a{
+   
+    display: inline;
+    color: red;
+}
+.last-left p{
+    margin: 30px auto;
+}
+.last-left h2{
+    font-size: 40px;
+}
+
+.last-container{
+    display: flex;
+    align-items: center;
+}
+/* footer */
+footer{
+    width: 100%;
+    height: 10%;
+    background-color: black;
+    color: white;
+    padding: 40px;
+   
+}
+.footer-container{
+    width: 100%;
+    height: 100%;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 60px auto;
+   
+    
+}
+.footer-container .up{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 50px auto;
+    background-color: #1C1A1A;
+}
+.bir {
+    width: 30%;
+
+}
+.iki{
+    width:40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo4 img{
+    width: 20px;
+    height: 20px;
+}
+
+.footer-container .down{
+    display: flex;
+    margin: 20px auto;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.footer-container .up ul li{
+    margin: 10px auto;
+}
+.footer-container .up .bir{
+    opacity: 0.5;
+}
+.footer-container .down{
+    opacity: 0.5;
+}
+.logo4{
+    display: flex;
+}
+.hidden{
+    display: none;
+}
+.all{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}

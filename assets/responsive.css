@@ -1,0 +1,131 @@
+@media (max-width:615px){
+    .header-down .header-down-inside .logo-group{
+        display: none;
+    }
+    .header-down .header-down-inside nav{
+        width: 30px;
+    }
+    .header-down{
+        padding: 0 20px;
+    }
+    .header-up{
+        padding:0 20px;
+    }
+  
+.header-up .loc{
+    display: none;
+}
+.header-up .email{
+    display: none;
+}
+.header-up .logo-group-head{
+    display: flex;
+    text-align: center;
+}
+.first-container{
+    padding-top: 50px;
+}
+.first-container .text1{
+    flex:0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-container .text2{
+    flex:0.5;
+}
+.first-container .text3{
+    flex:1;
+}
+.buttonss{
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex:2;
+}
+.first .first-container .left-cont{
+    margin-top: -50px;
+    height: 100%;
+
+}
+.left-cont .three-group{
+    display: none;
+}
+.second .three-group{
+    display: flex;
+}
+.second .second-gr{
+    display: flex;
+    justify-content: center;
+}
+.second-gr .gr-item{
+    width: 170px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:rgb(255, 255, 255);
+    background: linear-gradient(126.68deg, rgba(71, 119, 227, 0) 8.95%, rgba(63, 111, 219, 0.7) 51.31%, rgba(67, 115, 223, 0) 87.94%), #1A4AA1;;
+text-align: center;
+}
+.gr-item img{
+    margin-bottom: 10px;
+}
+
+.second .second-container{
+    display: flex;
+    justify-content: center;
+}
+
+.three .three-container .three-text p{
+    margin-top: 10px;
+   
+}
+
+
+}
+
+@media (max-width:650px){
+    .three-container .three-text h2{
+        width: 100%;
+        text-align: center;
+        font-size: 40px;
+    }
+    .three-container .three-text p{
+        width: 100%;
+        text-align: center;
+    }
+   
+}
+@media (max-width:520px){
+    .tanks{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-container .up{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-container .up .iki{
+        flex-direction: column;
+    }
+    .footer-container *{
+        flex-direction: column;
+    }
+    
+}
+
+@media (max-width:400px){
+    .sixth-right .picture img {
+width: 250px;
+height: 250px;
+}
+
+.sixth-left .last p{
+text-align: center;
+}
+.sixth-left h3{
+    font-size: 30px;
+}
+}
